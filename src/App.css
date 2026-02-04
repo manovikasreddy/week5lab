@@ -1,0 +1,42 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.card button:disabled {
+  background: #aaa;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+}
